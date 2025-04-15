@@ -1,0 +1,26 @@
+Package: bivnormcp
+Title: Bayesian Change Point Detection for Bivariate Normal Data
+Version: 1.0
+Authors@R: 
+    c(
+      person("Arnoneel", "Sinha", email = "arsinha@augusta.edu", role = c("aut", "cre")),
+      person("Jie", "Chen", role = "aut")
+    )
+Description: This package implements a Bayesian change point detection algorithm 
+    for bivariate normal data, motivated by the need to jointly analyze correlated 
+    time series or sequences of observations. It models the sequence of bivariate 
+    observations and detects multiple distributional shifts using an online search 
+    strategy and probabilistic inference. The method is particularly suited for 
+    situations where simultaneous shifts in two correlated variables occur, and 
+    includes visualization tools for interpreting the change points. This methodology 
+    supports applications in fields such as epidemiology, finance, environmental 
+    monitoring, and other domains involving multivariate temporal data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+VignetteBuilder: knitr
+Imports:
+    cubature,
+    openxlsx,
+    plotly
