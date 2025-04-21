@@ -1,6 +1,6 @@
 Package: bivnormcp
 Title: Bayesian Change Point Detection for Bivariate Normal Data
-Version: 1.0
+Version: 1.0.0 (MuSigma)
 Authors@R: 
     c(
       person("Arnoneel", "Sinha", email = "arsinha@augusta.edu", role = c("aut", "cre")),
