@@ -35,7 +35,7 @@ plot_cp_3d <- function(x1, x2, change_points) {
                 marker = list(size = 5, color = 'red'),
                 name = "Change Points", showlegend = FALSE)
 
-  # Line connecting change points (optional visual)
+  # Line connecting change points
   p3 <- plot_ly(d_cp, x = ~x, y = ~y, z = ~z,
                 type = "scatter3d", mode = "lines",
                 line = list(color = 'red', width = 2),
